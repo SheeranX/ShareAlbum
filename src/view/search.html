@@ -1,0 +1,11 @@
+<div class="search row">
+    <a class="col-md-2"><span>&nbsp;</span></a>
+    <input type="text" placeholder="enter key words" class="col-md-8" ng-model="searchVal">
+    <a class="col-md-2">
+        <span class="glyphicon glyphicon-search" ng-click="searchClick()"></span>
+    </a>
+</div>
+<div app-tab list="tabList" tab-click='tClick(id,name)'></div>
+<div app-banner data='list' filter-obj='filterObj' filter-name="filterName"></div>
+<div app-footer></div>
+<div app-sheet sheet='sheet.list' visible="sheet.visible" select="sheetSelect(id,name)"></div>

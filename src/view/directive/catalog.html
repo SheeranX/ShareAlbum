@@ -1,0 +1,10 @@
+<div class="catalog row">
+   <h3 class="title">position</h3>
+   <button class="btn {{$index===isActive?'btn-info':'btn-defaut'}}" ng-repeat="cls in com.positionClass" ng-bind="cls.name" ng-click="showPosition($index)"></button>
+   <hr>
+   <div ng-repeat="cls in positionList">
+    <span ng-bind="cls.name"></span>
+    <span class="text-danger pull-right" ng-bind="cls.salary"></span>
+    <p ng-bind="cls.createdDate"></p>
+   </div>
+</div>

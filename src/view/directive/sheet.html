@@ -1,0 +1,9 @@
+<div class="row sheet" ng-show="visible" ng-click="visible=false">
+    <div class="sheetModal">
+        <ul>
+            <li ng-repeat="s in sheet" ng-click="select(s)">{{s.name}}</li>
+        </ul>
+        <p ng-click="visibleclk()">Cancel</p>
+
+    </div>
+</div>

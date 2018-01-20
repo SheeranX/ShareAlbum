@@ -1,0 +1,16 @@
+<div class="details">
+    <hr>
+    <div class="media" ui-sref="company({id:com.id})">
+        <a href="#" class="media-left">
+            <img ng-src="{{com.imageUrl}}" alt="" class="media-object" width="50">
+        </a>
+        <div class="media-body">
+            <h4 class="media-heading" ng-bind="com.name"></h4>
+            <p>
+                <span ng-bind="com.industry"></span>/
+                <span ng-bind="com.state"></span>/
+                <span ng-bind="com.people"></span>
+            </p>
+        </div>
+    </div>
+</div>
