@@ -1,2 +1,2 @@
 # ShareAlbum
-A web app for album 
+A web app for AngularJS + Gulp 
